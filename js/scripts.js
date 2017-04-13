@@ -1,1 +1,2 @@
-// Scripts
+// Scripts //
+$('h1').lettering();
