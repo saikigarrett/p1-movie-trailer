@@ -1,0 +1,74 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Knewave|Rock+Salt');
+
+
+/* Color Palette */
+
+.color-1 {
+    background:#fb5cb8;
+}
+
+.color-2 {
+    background:black;
+}
+
+.color-3 {
+    background: teal;
+}
+/* Textures or Patterns*/
+
+.pattern-1 {
+    background:url("../img/white_texture.png")
+}
+
+/* Imagery */
+
+.imagery-1 img {
+    border: none;
+    box-shadow: 0 0 10px grey;
+}
+
+.imagery-2 img {
+    border: dotted teal;
+}
+
+/* Icons */
+
+
+/* Navigation */
+a:link
+a:visited {
+    color:darkcyan;
+    text-decoration: none;
+}
+
+a:focus {
+    background: blue;
+}
+
+a:hover {
+    color: antiquewhite
+}
+
+a:active {
+    border-bottom: 4px solid: darkcyan;
+}
+
+
+/* Typography */
+
+h1 {
+    font-family: 'Knewave', cursive;
+    color: #fb5cb8;
+}
+
+h3 {
+    font-family: 'Rock Salt', cursive;
+}
+
+p {
+    line-height: 24px;
+}
