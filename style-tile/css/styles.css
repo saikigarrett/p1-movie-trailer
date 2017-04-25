@@ -8,7 +8,7 @@
 /* Color Palette */
 
 .color-1 {
-    background:#fb5cb8;
+    background:#d90fa5;
 }
 
 .color-2 {
@@ -16,7 +16,15 @@
 }
 
 .color-3 {
-    background: teal;
+    background: #cae6dd;
+}
+
+.color-4 {
+    background: #f65146;
+}
+
+.color-5 {
+    background: #687480;
 }
 /* Textures or Patterns*/
 
@@ -24,6 +32,13 @@
     background:url("../img/white_texture.png")
 }
 
+.pattern-2 {
+    background:url("../img/asfalt-light.png");
+}
+
+.pattern-3 {
+    background:url(../img/concrete_seamless.png)
+}
 /* Imagery */
 
 .imagery-1 img {
@@ -32,29 +47,38 @@
 }
 
 .imagery-2 img {
-    border: dotted teal;
+    border: ridge #d90fa5;
+}
+
+.imagery-3 img {
+    border: solid 4px black;
 }
 
 /* Icons */
 
 
 /* Navigation */
-a:link
+a:link{
+    color: white;
+}
+
+
 a:visited {
-    color:darkcyan;
+    color:#d90fa5;
     text-decoration: none;
+    text-align: center;
 }
 
 a:focus {
-    background: blue;
+    background: black;
 }
 
 a:hover {
-    color: antiquewhite
+    color: white;
 }
 
 a:active {
-    border-bottom: 4px solid: darkcyan;
+    border-bottom: 4px solid #d90fa5;
 }
 
 
@@ -62,7 +86,7 @@ a:active {
 
 h1 {
     font-family: 'Knewave', cursive;
-    color: #fb5cb8;
+    color: #d90fa5;
 }
 
 h3 {
