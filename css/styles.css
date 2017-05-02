@@ -13,13 +13,17 @@ body {
 
 /*video*/
 video {
+    width: 100%;
+    max-width: 2250px;
+    margin-top: 100%;
+}
+
+div.trailer {
+    width 100%;
+    max-width: 2000px;
+    margin: auto;
     display: block;
-    height: 100%;
-    left: 25%;
-    position: absolute;
-    top: 100%;
-    width: 200%;
-    height: auto;
+    position: relative;
 }
  
 .nav ul {
@@ -35,7 +39,7 @@ video {
     font-size: 1.2em;
     line-height: 40px;
     height: 40px;
-    border-bottom: 1px solid blackf;
+    border-bottom: 1px solid black;
 }
  
 .nav a {
