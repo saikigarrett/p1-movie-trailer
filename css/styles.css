@@ -10,12 +10,17 @@ body {
     background-attachment: fixed;
 }
 
+
+/*video*/
 video {
-    display: inline-block;
-    margin-top: 35em;
+    display: block;
+    height: 100%;
+    left: 25%;
+    position: absolute;
+    top: 100%;
+    width: 200%;
+    height: auto;
 }
-
-
  
 .nav ul {
   list-style: none;
