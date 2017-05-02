@@ -1,4 +1,60 @@
 /* Styling */
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Knewave|Rock+Salt');
+
 body {
-    background: rgb(150, 43, 43);
+    background: black;
+    background-image:url(../style-tile/img/56751577-fight-club-wallpapers.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+video {
+    display: inline-block;
+    margin-top: 35em;
+}
+
+
+ 
+.nav ul {
+  list-style: none;
+  background-color: black;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+    font-family: 'Knewave', cursive;
+    color: #d90fa5;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid blackf;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #d90fa5;
+  display: block;
+}
+ 
+.nav a:hover {
+  background-color: white;
+}
+ 
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
