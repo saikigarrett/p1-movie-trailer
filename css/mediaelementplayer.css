@@ -17,6 +17,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
     vertical-align: top;
     text-indent: 0;
     box-sizing: border-box;
+    margin-top: 100%;
 }
 
 .mejs__container * {
